@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    font-family: Roboto, "Helvetica Neue UlraLight", "Roboto Thin Italic";
+    flex-basis: auto;
+
+}
+
+.header { 
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 500px;
+    padding: 10px 100px 0px 100px;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.top-header {
+    display: flex;
+    gap: 50px;
+}
+
+.web-header {
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-txt {
+    line-height: 22px;
+}
+
+
+.rectangle {
+    background-color: gray;
+    height: 200px;
+    width: 750px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px 100px 200px;
+}
+
+
+.contain-header {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 35px;
+
+}
+
+.pic-container {
+    display: flex;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.items {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+}
+
+.logo {
+    font-size: 18px;
+
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    font-family: "Helvetica Neue Light";
+    gap: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text {
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+    color: #6e7075;
+    font: 18px;
+
+}
+
+.sign {
+    border-radius: 7px;
+    border-style: none;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 30px 7px 30px;
+    margin: 0px;
+}
+
+.sign-up-border {
+    border-radius: 7px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2.5px solid #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 30px 7px 30px;
+}
+
+.quote-block { 
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: black;
+    font-style: italic;
+    padding: 80px 200px 80px 200px;
+
+}
+
+.quote-name {
+    font-size: 23px;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882F6;
+    padding: 30px;
+    margin: 100px;
+    line-height: 5px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    height: 100px;
+    text-align: center;
+
+}
+
+a {
+    font-size: 18px;
+    text-decoration-line: none;
+    color: #E5E7EB;
+    font-weight: 10px
+
+}
+ 
